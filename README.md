@@ -1,16 +1,78 @@
-# React + Vite
+# 🌿 Green Steel Operations Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A proof-of-concept industrial operations dashboard inspired by Stegra's mission to build the world's first large-scale green steel plant in Boden, Sweden.
 
-Currently, two official plugins are available:
+This application demonstrates how modern software can help monitor, visualize, and optimize key sustainability and production metrics in a fossil-free steel manufacturing environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Traditional steel production is responsible for a significant portion of global CO₂ emissions. Green steel production replaces coal-based processes with renewable electricity and green hydrogen.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This dashboard simulates how engineers and operators could monitor critical plant metrics in real time while tracking sustainability goals.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Production Monitoring
+
+* Real-time steel production tracking
+* Production line health monitoring
+* Operational alerts and anomaly detection
+
+### Sustainability Metrics
+
+* CO₂ emissions reduction tracking
+* Green hydrogen consumption monitoring
+* Renewable energy utilization metrics
+
+### Industrial Analytics
+
+* Process efficiency visualization
+* Production KPI dashboards
+* Emissions comparison between traditional and green steel production
+
+### Live Environmental Data
+
+* Real-time weather data from Boden, Sweden
+* Wind speed monitoring
+* Solar irradiance monitoring
+* Renewable energy potential indicators
+
+## Technology Stack
+
+* React
+* Vite
+* JavaScript
+* Open-Meteo API
+* GitHub Pages
+
+## Data Sources
+
+### Live Data
+
+* Weather information sourced from the Open-Meteo API
+* Location: Boden, Sweden
+
+### Simulated Data
+
+The following operational metrics are simulated for demonstration purposes:
+
+* Steel production volume
+* Hydrogen flow rates
+* Production line health
+* Energy consumption
+* CO₂ savings
+* Operational alerts
+
+## Why This Project
+
+As someone with experience in both software development and the steel industry, I wanted to explore how digital solutions can support the transition toward fossil-free steel production.
+
+This project demonstrates how software can provide operational visibility, sustainability tracking, and decision support for next-generation industrial facilities.
+
+## Live Demo
+
+https://sricharan-anugandula.github.io/green-steel-dashboard/
+
+## Source Code
+
+https://github.com/Sricharan-Anugandula/green-steel-dashboard

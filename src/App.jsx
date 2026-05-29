@@ -255,7 +255,7 @@ export default function App() {
       <div style={{ background: C.teal, color: "#fff", padding: "12px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <div>
           <div style={{ fontSize: 10, opacity: 0.65, letterSpacing: "0.1em", textTransform: "uppercase" }}>Stegra · Boden Plant · 65.83°N 21.68°E</div>
-          <div style={{ fontSize: 17, fontWeight: 700, marginTop: 2 }}>🌿 Green Steel Operations Dashboard</div>
+          <div style={{ fontSize: 17, fontWeight: 700, marginTop: 2 }}>🌿 Stegra-Inspired Green Steel Operations Dashboard</div>
         </div>
         <div style={{ textAlign: "right", fontSize: 11, opacity: 0.85 }}>
           <div>🟢 Plant data: simulated &nbsp;|&nbsp; 🛰️ Weather: live</div>
@@ -359,8 +359,8 @@ export default function App() {
         </div>
 
         <div style={{ marginTop: 10, fontSize: 10, color: C.gray, textAlign: "center" }}>
-          Built by [Your Name] · Green Steel Plant Monitor · Proof-of-concept ·{" "}
-          <a href="https://github.com/yourhandle/green-steel-dashboard" style={{ color: C.green }}>View on GitHub</a>
+          Built by [Sricharan Anugandula] · Green Steel Plant Monitor · Proof-of-concept ·{" "}
+          <a href="https://github.com/Sricharan-Anugandula/green-steel-dashboard" style={{ color: C.green }}>View on GitHub</a>
         </div>
       </div>
     </div>
